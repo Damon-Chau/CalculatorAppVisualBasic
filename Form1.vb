@@ -4,6 +4,8 @@
     End Sub
 
     Private Sub additionRb_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles addRB.CheckedChanged
+        'following 4 private sub check if the radio button is pressed, make symbol label to correspond to what's pressed
+        'then it reset the answer label to empty string
         symbolLbl.Text = "+"
         answerLbl.Text = ""
     End Sub
@@ -32,13 +34,15 @@
     End Sub
 
     Private Sub calculateBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles calculateBtn.Click
+        'variable declaration
         Dim number1 As Double
         Dim number2 As Double
         Dim answer As Double
 
+        'perform calculator operations (addition, subtraction, multiplication, division
         If userinput1Textbox.Text = "" OrElse userinput2Textbox.Text = "" Then
             MessageBox.Show("Please Enter a Number")
-        ElseIf addRb.Checked = False And subtractRB.Checked = False And multiplyRB.Checked = False And divideRB.Checked = False Then
+        ElseIf addRB.Checked = False And subtractRB.Checked = False And multiplyRB.Checked = False And divideRB.Checked = False Then
             MessageBox.Show("Please Choose an Operation")
         Else
             number1 = Double.Parse(userinput1Textbox.Text)
@@ -76,6 +80,7 @@
         userinput2Textbox.Text = ""
         answerLbl.Text = ""
 
+        'resets all labels to empty string and radio button to False
         If addRB.Checked = True Then
             addRB.Checked = False
             symbolLbl.Text = ""
