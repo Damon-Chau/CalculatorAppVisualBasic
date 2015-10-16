@@ -1,1 +1,11 @@
 C:\Users\Damon\Documents\GitHub\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\bin\Debug\Calculator.xml
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.vbprojResolveAssemblyReference.cache
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.Cache
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.xml
+C:\Users\Damon\Documents\GitHub\Calculator\Calculator\obj\Debug\Calculator.pdb
